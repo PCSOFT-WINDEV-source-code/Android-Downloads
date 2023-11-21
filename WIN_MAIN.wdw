@@ -1,0 +1,683 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_MAIN
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_MAIN
+ identifier : 0x238f07560cc0b843
+ internal_properties : CAAAAAgAAAB9BG9c3kbK1S7Kdr8ExGk82pzjfeIyV3nVOelo1CF8DZr4zfT/VxqJf4V1BY4Gc8nSF7xdfcv1f2DbYp9Jf5loivY37pe9gmtqJ1GpmPVN9mEyWmKhvhgNdK2/G7RChiKSt68cst9lUfTWJsy6vgDq2N27KgSF00gVdtMQgccTrqnPt+4whkmBblaKCyiYeGWkyn0QWJQpElwmj65x9n6ezVnJrfc8QS0sFscrDnsQfM860Aef4kvA18kD/WVBPcNvVllTvZp/ajMIAwu7FVmxmD3Nun6uM1V07lAEx0s2g6wzWidpl5dKO4rwSw+JMtyySJV8VMScjZuYd1BhJRcPCu78XiHDQ/eoQ2eOYZ3Bjlp19a9BSYzjmeIRJvg+LEKB8xkqvbR7ReCqSLboghCWYpygPaUVaxcz1kqZfbliLuLNXXstZr7amGS7p0qWEIBWUyV2Q3BK/mEyUT8JvxZZOu8fE8FrVIkiHiE+E8MWS676RvLLQGXKNT7gWS5IXyed3wd08PPcvp2lhjuCFEA1owySMKtSEJ+WQAP8F4UVeA2mJT6r6rnDEBXc2euHqlHtn0oWxANgKYBEuTN97Lg+L0d2O9AGzzZy+JNSSeilRKDoRBmsU7Sh2A6+vJNFEZyDQ98UC9eqxaoM6EqeA56OubM9dupRcgBZrxZdMGbxtDvV+4/CDapNr2rtpjRchYicJGe3q+oMgpqDadvYpzJtMj95t4CTQ4xvAvQh/1/L2B71x//MNQcMR3GctVGgYUOkEdDZHU8Ndd4QSvI1CToCrRHc4KPNMnNUpNq1qOYUpYReXSak0iaOO65+bsePPRxitSQlZvpSboQMFx1cOKtxnulrbgLQojtbINUnxnCK
+ properties :
+  width : 360
+  height : 569
+  heightMin : 650
+ controls :
+  -
+    name : LOOP_DOWNLOADS
+    identifier : 0x238f07560cc6b852
+    internal_properties : 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
+    properties :
+     y : 42
+     width : 360
+     height : 527
+    controls :
+     -
+       name : STC_FILE_NAME
+       identifier : 0x238f07560cc9b852
+       internal_properties : CAAAAAgAAAAXd2t9ehJinijd3fhmKgd7xD/Ov4PXDjOYResvEGShrUaRQm3KjEhrH2pMqZNLg75Q0LJAbZ8cT963LSIXZdJCCu6WQ7wq4ShvKCGI2FGirFI7X49J3fXLlIvb2uIb/w9B1LQtlVY9qMBYbza+myxmmjooEUbGxig9vY7VFia8Cc5R4BvxWHmZZlxZnazPHHVe54fMSZm55aC4EnpsX9iriiQ1eotB3H9MUPCJ7eM8cIk0NI3h3/J5gUvTSqGP8RWiHdacYymu+6SSjkvTmPQn4UjvoAusOr7A8F6F8M3ixg/GRcqTIIkDNQlB9I5dh6L6SmyhiiXwrVe6CSQ6OrEK+D6iovotaY6W8D2bZXjdnl5VbuLrPrCy3Kn2vew1aP95yp7lEF1vkRvu2UjBtaDd5Yqcv+v9raDIfom6h1kPDk21VOkW7WvnASRKS9pKmV7itWcMCGr25hT2Dg==
+       properties :
+        x : 55
+        y : 8
+        width : 256
+        height : 24
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : IMG_MIMETYPE
+       identifier : 0x238f07560ccab852
+       internal_properties : CAAAAAgAAAA4xLcvHaPEvA0WzPFMblpkouR2cXnkwLOnf4+UaANZUm0PTbXF4qNZK1Puz2NekKfIEYds4IawKlvtnRryquQH9lUwxqb+EAoJi74rYif+GLvBh9Jf2jkHCqFyBzEAyXPfAPt7LpUErtSuTBILPEAw56ejiPVeb5UKNf4p6o4u2OH2xgz1fQwImE9S7suwaZ9RN6oTEfrxNTCU//onOqdqX+QN2dBB9m9RmmV/mTFcfj3NrXwPLJxIF3Vceg1gH9LUaRNFIBZl23YNVJb7ZBv6sjVuM84lOUZMVik+PZ1oAdlTgHedAlZBi/TuyDhdjgDzvjkuMbGSNETAPEP8lh4cDBZkp3uuWi7AM3IfUTsAdnT0UD49B92bgJBlX3O7EDfW2vBPdGSZt/He6RmHDeXGB00dEmDgfDRzNIxYMj6yuFxn1sjEt0d0NNvbCCm0jiy97HKmTtpTcGi0Ma/kmZMmpU8WbAZ/zrKqZYgSqHsW6sEtWQ+jdawMjIkdpZ67FfkVb7x2qOIiBpJg8kh5pGrYyLLxPhVXcUgzA4YraRlLFrIeua1SZPO9LfZT4ebIVgOLTZtVKRknubfgSPZEtHcBfSOfzCaNyQfkWJskg0/2i6cQFLaKUZoTPv5h375T7ed9F9GyWVFB70PWoFz6/sBA8LeAsl85Iggy/RlqVG4q2jbVdcV1VojKuxDxNPWvZkAXHgvpSwxX1dVl0nxRpC5+3RiQtd54Ve7J/vCqeoPT2I20yitciR9APCTzmshr5Glc/gSFzSlg7d6ni1e7ojVqXJ28KYElZSPRNiVpr+E8py0p
+       properties :
+        x : 8
+        y : 8
+        width : 34
+        height : 34
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+     -
+       name : STC_MIMETYPE
+       identifier : 0x238f07560ccbb852
+       internal_properties : CAAAAAgAAAAC2MlW4uFl7QdNUo4oFpW87y/O5zSHw1AJEV3uTH0sHWRhe205g2QVS0XvVpHEGeCb39re+wOKcBtz5t+XM3sRQFYFyZ3NAj6AKdtMn1QfkkSb3eHteLWU8KU0RPXziKYWw/y4ikIxJ7HnGc9GjQWztMOqfT+htnocNtq/oaHmq53I8tO6l41A4x0/SH/IPyKgm7XHo7PqOL2mGDxR+MZaeG3REC4FzOlvLPriSYMYiIPxSt/gH0+JIxQI29+kDzVmSXPL4C8iDp4pkVGFD+vXVD6YAw1pGUMT3Cti6IZDmrAKhH35JTLzhgVIcTEhiJfIJcxLl4BV+7mNbWxCy4OFLvrK7275Lby3xcb8uWx/Uws4ZDQcORFBNQbkp8d40jwMxy6ANx2sJ4NViOnIudv1IWyHPPWH8dAzMUBGxYqhAalxtegJnlbv0/wgMqmmc+6MpmZ0c3qkVRwFohviyeWgrTS4gvxtOPGAlLfAxB+vCBF5KV276tdrublYNCCjmhvnaOK6ApOzYCnQghaU7LmyMC3h
+       properties :
+        x : 8
+        y : 8
+        width : 34
+        height : 34
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes : []
+     -
+       name : STC_FILE_INFO
+       identifier : 0x238f07560cccb852
+       internal_properties : CAAAAAgAAAAtxMDge7HD85HERMpfDUz0qLxwhgWPL8uoxFWM5o8SKjsy3Z17oYXKh+3+zp4D9CGzGEeayZAZb+OTAc9s1IkokisBLjikwKnz1XHJTRZt9grSpma1FDwUJafayJFRIw4gJ2cQ2NrzOJ6fNOMaVJbcyXU80xWTpkc8oREcFF3AC4+BYvFnSk5peGV1dImKAPmEEanx5/0QLh+CxSP4hc4F6tEfMrZ/C9J5XXf9ZZIjznjZytbw9+ceL8sUf463LbBru+GznuDXna9fKhlA4sKWw2qDXijCtvILv5FfJB0DXrIHKiXre9E0HinMjwH9GuQdKHPM3fIKAOgMwp4MajfYEcgpCHXyeEFWAQF2jBcamw5p5gmVCueQGAzDOw4A+1CNcyIAwJ3AnEDMJP00/STVUJc1XQQycvkOBUB6TMnme9AxVGHwWNQtb1PwWiKiC2VRGj9iOe6qvi8aa3CDzVxGbZ3+dxrtUtLmXaT/kjDE0Aoeu9a5PQAH/Q==
+       properties :
+        x : 55
+        y : 32
+        width : 256
+        height : 24
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 14
+     -
+       name : BTN_OPTIONS
+       identifier : 0x238f07560ccdb852
+       internal_properties : CAAAAAgAAABzo2l+FmD4FVcs2GcVjRqpBjWl/6P6ynpKregpj9NTWKKImDkhcht3qpszW+fRZVe7kVxtbtX/L0Vw7L/RqRf3LYtLamVv3P0LR34IGHCGyNm66NGys2u1Nx7ci1H8xu+5wSK6q5Et5vFA9shdqU15SwmDgAJIKEp4SeKbYZ5uYnHyzJVD6bCToHQUKlgvTEh/E+MbkQt5b/sNK2AR7jBa2dXInFoB9+vGVwrv+FB1g40uCjwjJBXcBof+xaThXzdzqtq0+X9RFTcSEcn1VBBrRjpPGBSp0oX4kDhx2sfpJNB8Z7uUp92J9rbUEKpXhMwbj5Tmax6zeY3YOH8JOO0KJ4/1d29GfmrDRzTdNGHtplfvPcBVau0XUs9cjo6+9f17PbnLAaVVN4kdkGgctbUQItPfoCBOwA8EJcYgqgueAzWmgDOZsijGkYUY53RirtZIVeRMlGMDoDC0IAiIaXtJ9ntYehCxg3+9QcEGEaZyOkaNIJ33Vye6/CE+HqJUDf0K6S7yf9xM5seXpie8QSt2Rtcs5VO+cPELd8NurvgtEKccSvFkdO29o8zrrfXZ2QkSJdlITnI9gLxWAEQJDbEad5s4xNIxcWyZ3GCnN9CFqpP+O5II+fe0Ruix2Z4BgCYmf5phVml7zyDNBKSrLJatzBMESBi0zZhiiHCRMdaSi468coVOdI6O4nTH0Pn2oY8cpov0UAuyn1gg2M+KY/V/8CdRmKelK/N84NYs1/hMqlh+3eNGkzr3xsxKDbOluV0dWjdHKtbltpmohkRnqleYMKGsbhQqrfkxfZRdWLS/L6+b6x0/p2Bk3b+45c4sqOy7bGUKQUvzsBwPSrD4R8mslpiHMpbVyiJOfjm2shGQRy7/z66ENkEOsSsrHYGO/+Hmt5ZNDsmrQmKVla7YoyhI6AXAe3LBK97msa0iiL0m1uU0osnBUupaa2fYwzVfvGERNMBRya2v9XfyN68y5+L3seqzYU39SNdJrlVIfqKWSEiKiD1Cpw5IKMXrBKU7Fv4sxKBLq0sYFUzGlumwX30c22ze8juZCV3OKyNjzhmNI1MMYBE8i6H/SYUAsEh/gNF7/jXimpvyP2VjhzfZDAzpJPBhML68bF1/lLxIAqTaWkVZ9yZQiEzvvEy+GTildDc7FWhWFZccPyIdwOsLKqWBFzIXqnB5pKtvNszsSA==
+       properties :
+        x : 315
+        y : 8
+        width : 34
+        height : 48
+       type : 4
+       code_elements :
+        type_code : 4
+        p_codes :
+         -
+           code : |1-
+            
+            OpenContextMenu()
+           type : 18
+         -
+           type : 161
+           enabled : false
+    columns :
+     -
+       name : ATT_IDENTIFIER
+       identifier : 0x238f07560cc7b852
+       internal_properties : CAAAAAgAAABBU+VTWyt5K/wNIXgLsZrqCIoWLyV87rz7SooopjsAizYoCQQC/9CPGlnnMCbponDQPIHRUPXgIyw1GKm3G4GvxUZflAPOVSanQrKakdk/gkMn5kI0Gz3jnUuFr4nS88jjozICAkzHJ90=
+       type : 3
+       content :
+        identifier : 0x2557a21302d7776b
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_ERROR
+       identifier : 0x238f07560cc8b852
+       internal_properties : CAAAAAgAAABzQfdN7YXPlT7P47rV6+TQQhC4gZempP5NnG8p0J++8wnCiwQi+WQtGr0LnuLnKFjY1vEhz3RB3rWAU2Au9LLQipkqy6r1rH9ValoM+2+NTI3pIJjitdN5Z4VP5ceUsQql7YSwUD61Fc8=
+       type : 3
+       content :
+        identifier : 0x2557a21302d9776b
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         stDownloadUpdated is DownloadInfo
+         
+         // Updates the details of the download
+         stDownloadUpdated = DownloadGetInfo(ATT_IDENTIFIER)
+         
+         // If the download is completed
+         if stDownloadUpdated.Status = downloadStatusSuccessful then
+         	
+         	// Opens the application associated with the downloaded file
+         	if ShellExecute(stDownloadUpdated.Destination) = False then
+         		
+         		ToastDisplay("Unable to open file", toastShort, vaMiddle, haCenter)
+         		
+         	end	
+         end
+        type : 33
+      -
+        code : |1-
+         
+         RefreshList()
+        type : 230
+      -
+        type : 241
+        enabled : false
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+      -
+        type : 224
+        enabled : false
+  -
+    name : STC_TOTALSIZE_INFO
+    identifier : 0x238f07560cceb852
+    internal_properties : CAAAAAgAAABH0SpzkpXt7p7vH0NjfPaQPfru0kf8es4+KR5R+COYAnQoXyJ6rvsdeSKFK5BsETeoITm4NUzGXV08e967bB3ZRHggJHixgkvnOF85E1PxVZbg5S/EE+Bbi7gxKvNRgkWbcf5lhFiWoXOvkn5GFNj/Q2dkNOxMzKgIIt05xaYvjbTk4NRfD4PrNeUkrbkZOZPnSTzeBmuknlPn4ugoh6P+mc217RO22kB5KiMqZovhOlIq4dVFKCsZ94zTXwQIbJUc9BHceWm2WYaPleSuxuztlE09KBS5KGKpamGuKGWS4tpfegHX9AdhbuH/gVlD0U4vXHRzSG2+/LJUII5HFL3KSBiNROAt7olNKiKz9sZH5U7gD/PBCnkSB700wAncUCTXNMvY53YT1vACimwh2xCn7EFJI5R55XI7OH/riUrJV+/O6NttIC3DrdCkj7yjydM5jF8/nTXY1g5t0ykpuobu9jHY2HhwajIniLZErd6KOMu/V1SjvrGRF6mhJ2zAybC1FFJgN+gtxuk4Pma00w==
+    properties :
+     x : 8
+     y : 8
+     width : 344
+     height : 19
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+  -
+    name : STC_EMPTY
+    identifier : 0x238f07560ccfb852
+    internal_properties : CAAAAAgAAACauIfhK6edeQVSFtXffxa2kmEOfB6s8PZrx6XYbuWi9LljhxqigXMqueFqwGy07ufftiqjBJI6/vYWRKASBOnuz6mQmHVm7A04QlytHjtBMzqpMtheFBCBtfUFN9roWgNq8QfCnFcb8/zjBJkqFJVL60JztcVMr+4Nhy+qRjbEVEgAhhqSCL0RQKLCDtUOveZ+VBIJxHPOXmYoyEz6FZ5SVhW6SiQODJ/YTZRIiBMsow/PjPIkizJzD3sSmYSHNKigZT9dY5Ef5rwutmQTuisjFwuarhSdJOn38gDEF+eFnLKslM0nX1vQXJtdoGmfbjRJbroUeqOhs6c+lzM1+FK2MvYsNp49NVSfZgx/ecd1bTgIwDmRRhlki7UgmW0CqtOxmZBvjXJhrOgOAU3Wvd7f745zK85eEW98O8pb2O4UYMg15TpkEeKeaYvLfxBfWPJ5CH0AqsPeIOVxe5OFtBmjVlmGRX4kCxjd1HF6Plv16Jhp6i5iZ20y/Nm2tNwCFz4aFfNW8XriFqNGu8NAjh6PW2XZY/ka9HLo8hUTBYaL0I0bwQJ0G7oC9nggKYFdeqBmGM1O42IUyO3km2eOaYRHGUQtIT6z6ov7W9QSVMjLfCoVofA4dyVXxYxOwJxG+8o4+NRZEVybo9LH+qePoLtYoYW/x0uW4jATqpeLQJvAueJhkn9KIcZtma2CQgYQyEMIpjsXvWl+XcgBDiAXNXBqLE3WQb/AxEY3c7WN+Q==
+    properties :
+     x : 48
+     y : 175
+     width : 265
+     height : 219
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ACTIONS
+  identifier : 0x238f07560cd5b852
+  internal_properties : CAAAAAgAAAALeXL+qZJWNlBdQSHgQgCTy09WQ73Hb6p1SYOQbwK3DKncWLg+PPdlPbk3BfgyPS0KJyB9g1Se/+yj12AKlBLaTrzTBP3VLtESH2gtECX7CuFEFPAMxNiLyrWVDEtnzB3iwsz3vbq+hrELrkiqpKTdZ7VJytUKSOKGg/uC68jn7GAu6HA4RuFsguwdG4S4Wl9xae++O3s2gu1nTJDhxYdeO+wUCxFvEjkdWv/FU/IfUc8Z0bG8dg1c4oG78m4uyWS4ROQJaUqqxlzGJCXFv5rBa4+Qf/bBtyzOe+1GUDJU9w==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x238f07560cd0b852
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options :
+   -
+     name : OPT_ADD
+     identifier : 0x238f07560cd1b852
+     internal_properties : CAAAAAgAAABKLQx2y3y0sT02JF53nwWl1mDp9Wij1H+FtBGE/89aZDwrK5x32cULND2S4mBDXSp6PtD3XnmjGudm8W0Z/jP8KCjTkd5B1aBuWRwxUmhUqNFTcECkjL2DLo1x7eyrZLebRiRqPGGFyeqlwWjd3ocu6x14Xb3caliiXI1sQ+SdLdHf8NzFw9IW+sdYdYakVpO5zjYtpzZUca+AyjJ364BSSEwqGFfwUhM4IEAbWlSToxteGUerHapn7Z5PLQZ/TO0VACFb+hKWe8I5P2fSVaVvVkkmdeTPWHwVj3LVuFYUzlOFNPgpVhCgN/uk/HqdbyY73Pf4uOfukH4T7XtHnta3iOyi9rXsnRQX6RIRMF8coVza
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          
+          // Adds the URL via the input window
+          URLAdd( )
+         type : 32
+   -
+     name : OPT_QRCODE
+     identifier : 0x238f07560cd2b852
+     internal_properties : CAAAAAgAAACmEbj3IAs3FMl392vyRwHoKf4p+OTUv3lxvjSWDTnVdd7q2C6B+wuXW2yNEh2b36mEJ+ZQG2z0ggZDfNyzoL/PCKq0tQ3gsHBAr41J2edMYGAfpcCIQLmggnd/9f1DeoH5t/tqwXcrFkO/NJ0oehCB+TjqfWKY+zUpkSTQPwo7mx03i30iCoqi6ASirnekhImIOl9NhnBEzT/Gd0JUminQsprv0PCEno822nnkdZo+Gr9ciqvAn9+McvhrhBS/9xGVTykEBnlcfginlCKGEC69woPxXMJLqlryv/9/gB1xAO/+P5/7TKZL7W4NZ5DLEyRMgXlp192+LLh3/BnHEj0dtaWYPVf+9j/aMzOgInvwkbMap3wP76dkDg==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         internal_properties : CAAAAAgAAAAEQzAumUG2CPe2S06uI4wbz8BVqXgBtJYNEz8LgVPOCyOIkE3B4WfHwuKTkXFev7jTgOuzt1MvJs2aKEN1Dl0xypWINcC0fRI7W8h+yw6bEyDf4jvLO6fttQdlZJo9WC98o9GFtHMuN7Rd9Q==
+         code : |1-
+          
+          // Opens the scan window
+          WIN_QRCODE_URL.OuvreAsynchrone( (), procedure( ReturnedValue is string ) {
+          	
+          	// If a URL has been scanned
+          	if ReturnedValue <> "" then
+          		
+          		// Program the download
+          		DownloadElement( ReturnedValue )		
+          	end	
+          } )
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ popup_menus :
+  -
+    name : MENU_DELETION
+    identifier : 0x238f07560cd3b852
+    internal_properties : CAAAAAgAAADq/EdAU2RbL6YF/MPWUQEiURKU3Lclk3CV+fvriJ6hD5X+otLanWi8XTKTUh5RTuFXwij6CJxDlksEVS9vq8RLeGTBS6VfvmAE7sXxLumZ2z/EnORZEt196BjQpbuwRgGcxBd+eamXrTsK6LANLB8P+jw3njBNr27mXWI+EHTkWgWAr17trWhY0/hlE8XLwHkp95NkK6bYyTRRQRFNdivdBmfJuF5M3BvQvnuXckCaJWWsfA6j4nbopdRNmOUSbeuf0JHWKArOIkI465BvumvOvKWJwHwtf94l8y9+5Tr/eQ07tdGOF2n3odp9OWsTTuvAibVClkyzpTr0z1P4bpiM6IWUO+AeWaCInZpBq0OqH4KIQm/zLggAocEdiAypfwiWv8N5XXebiyN2Tzut2z7CiJtMa5y5VhOW+NVwRHNssQ1tj/6qWEksNgAxddE=
+    options :
+     -
+       name : OPT_DELETE
+       identifier : 0x238f07560cd4b852
+       internal_properties : CAAAAAgAAADVKtKpSuhrMgLqAmfK913YIaSeDGhsYFzEppGM7mSDvtpV0bIKE1JXYW1gbJcm1IxpJsh3VQfvNTD4bGOPoSe5gCeOIc8D/60oHtpG0YyUNaY+/W2h1uG79rEg9shRenw0Ll6l7uo02hzS5rdmfqyNSfDMuiXqHcyigXJZIRSLMx22BAqId1KQLFEhY9T36thjC6jodyOUcYc4mAIAkCAu2Vtde+kPaz5DUA/Yl9vDpPoE5HinRedp6OczojI9EC1Zfvkj7AefBO5Um8RHGQSeIqANriO8oYHT1QBSjgQpEb49qOhYs29/TWNDOlLODFsoz8I4034nnd4C1UgQXOrql7xWHSDsOX0/mFDKN5o0piullX1MIt4hdcNUX2pCz91SQnwUyH05i3XNasGwOU0U+BbyWb7zLBWb9uokm9XRbj76Ng==
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1-
+            
+            // Deletes the specified download
+            DownloadRemove(ATT_IDENTIFIER)
+            
+            // Refreshes the list
+            RefreshList()
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      procedure MyWindow()
+   -
+     code : |1-
+      
+      RefreshList() 
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+  procedures :
+   -
+     name : RefreshList
+     internal_properties : CAAAAAgAAAD9kslgbMCem/xWww5rlE2wKAt7y0EnKQQSn72esFspP37Sy3AmOEIcOtFGkxxQhNJ8N07WbWNhtWtT9DZZ8fDUYyags1YKPSmdkcurUpuKTs08AkVyNp7rSe5nGMjdcqBFRutTyj9vQCFm8Rp1VFqr1ZMmIPsVgJllxUMmyZnlfUiAH7S3aVaDcS43u5xmhcJ5keoLYuMtg/o8xW9lV1tJalcGCJQYJSamdBSbNQ3mqp+fbvJp8LPIadwTb6CAhSei1pZx0QdbnmsIkEVM8CDz+n+ZJzH94FCTqPWrF9b2UjdfNkSmLcYPGFQsSgvH7SGMlvLHEHXT3YLtGo8Jvol+qcqXu9u2gVLrO0546N45G9hOAns359kg/CLa1vYUNPwNgSnI/jepJxAEEV33bDw6NU1igljAlFlcnNp61ZVdHzj7y4J0EC9wPxc=
+     procedure_id : 1409353274351335491
+     type_code : 14
+     code : |1-
+      // Summary: Refreshes the list of downloads
+      // Syntax:
+      // RefreshList ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure RefreshList()
+      
+      stDownload		is DownloadInfo
+      nSpaceUsed		is numeric
+      nTotalSpace		is numeric
+      
+      // Clears the current list
+      LOOP_DOWNLOADS.DeleteAll()
+      
+      // Lists downloads still present
+      for each stDownload of DownloadList()
+      	
+      	// Adds the download to the displayed list
+      	nSpaceUsed += ShowDownload( stDownload )
+      end
+      
+      // Calculates the total available space
+      for i = 1 _to_ SysNbExternalStorage()
+      	
+      	// External storage space
+      	nTotalSpace += SysMemoryExternalStorage(i, sysStorageSpace)
+      end
+      
+      // Internal storage space
+      if InSimulatorMode() then
+      	nTotalSpace += SysSpace(sysProgramSpace)				
+      else
+      	nTotalSpace += SysSpace(sysStorageSpace)		
+      end
+      
+      // Completes the information
+      STC_TOTALSIZE_INFO	= "Using " + LengthToString(Max(0, nSpaceUsed)) + " on " + LengthToString(nTotalSpace)
+      
+      STC_EMPTY.Visible	= ( LOOP_DOWNLOADS.Count = 0 )
+     type : 458752
+   -
+     name : DownloadElement
+     procedure_id : 1409353274351401027
+     type_code : 14
+     code : |1-
+      // Summary: Download the requested URL
+      // Syntax:
+      //DownloadElement (<sURL> is string)
+      //
+      // Parameters:
+      //	sURL (UNICODE string): URL of the element
+      // Return value:
+      // 	None
+      //
+      procedure DownloadElement( local sURL is string )
+      
+      stDownload			is DownloadParameter
+      stInfo				is DownloadInfo 
+      
+      if InSimulatorMode() then
+      	Error("Unable to add downloads in simulator mode")
+      	return
+      end
+      
+      // Quickly checks the validity of the URL
+      if sURL <> "" _and_ ( sURL [= "https://" _or_ sURL [= "http://" ) then
+      	
+      	// Create the download
+      	stDownload.NotificationMode	= downloadNotifProgressAndCompletion
+      	stDownload.Source			= sURL
+      	
+      	// Adds the download
+      	let ID = DownloadAdd(stDownload)
+      	
+      	// Retrieves the information of the added download
+      	stInfo = DownloadGetInfo(ID)
+      	
+      	// Shows the download
+      	ShowDownload( stInfo, True )
+      	
+      end
+     type : 458752
+   -
+     name : ShowDownload
+     procedure_id : 1409353274351466563
+     type_code : 14
+     code : |1-
+      // Summary: Shows a download in the list
+      // Syntax:
+      //[ <Result> = ] ShowDownload (<stDownload> is DownloadInfo [, <bFirst> is boolean [, <bToEdit> is boolean]])
+      //
+      // Parameters:
+      //	stDownload (DownloadInfo): Details of the download
+      //	bFirst (boolean - default value=0): True to show the download at the top of the list, False otherwise
+      //	bToEdit (boolean - default value=0): True if an existing download must be updated, False otherwise
+      // Return value:
+      // 	numeric: Number of bytes occupied by the download
+      //
+      procedure ShowDownload( stDownload is DownloadInfo, bFirst is boolean = False, bToEdit is boolean = False ) : numeric
+      
+      N is int
+      
+      // Ignores invalid downloads
+      if not stDownload.FileSize > 0 then
+      	
+      	if bFirst then
+      		
+      		// Refreshes the list
+      		RefreshList()		
+      		return 0
+      	end
+      end
+      
+      if bToEdit = False then
+      	
+      	// If you want the download to appear at the top of the list
+      	if bFirst then
+      		
+      		N = 1
+      		LOOP_DOWNLOADS.InsertLine(N, stDownload.Identifier, False)		
+      		
+      	else
+      		
+      		N = LOOP_DOWNLOADS.AddLine(stDownload.Identifier, False)		
+      	end
+      else
+      	
+      	// Searches for the download
+      	N = LooperSearch(ATT_IDENTIFIER, stDownload.Identifier, searchExactMatch)
+      	if N not > 0 then
+      		return 0
+      	end
+      	
+      	LOOP_DOWNLOADS[ N ].ATT_ERROR 	= False
+      end
+      
+      // Gets the source info 
+      sTypeInfo	is string	= URIGetInfo(stDownload.Destination, uriInfoOriginType) 
+      
+      // Extracts the MIME type
+      sMIMEType	is string	= sTypeInfo.ExtractString(1)
+      
+      // Size and status
+      sSizeInfo	is string
+      sStatus		is string
+      
+      switch stDownload.Status
+      
+      	// The download has not started
+      	case downloadStatusPending 
+      		
+      		// 0 of <Total size>
+      		sSizeInfo								= "0 of " + LengthToString(stDownload.FileSize) + " • " + stDownload.Source.Host
+      		sStatus									= "Starting..."
+      		LOOP_DOWNLOADS[ N ].STC_FILE_INFO.Color	= DarkGray
+      		
+      		// Checks progress regularly
+      		CheckDownloadRegularly( stDownload.Identifier, downloadStatusPending )
+      		
+      	// The download is in progress
+      	case downloadStatusRunning  
+      		
+      		X is numeric = stDownload.Progress
+      		if X <= 0 then X = 0
+      		
+      		// <Progress> of <Total size>
+      		sSizeInfo	= LengthToString(X) + " on " + LengthToString(stDownload.FileSize) + " • " + stDownload.Source.Host
+      		sStatus		= "In progress..."
+      		
+      		// Checks progress regularly
+      		CheckDownloadRegularly( stDownload.Identifier, downloadStatusRunning )
+      		
+      		// Checks progress regularly
+      		
+      	// Paused download
+      	case downloadStatusPaused   
+      		
+      		X is numeric = stDownload.Progress
+      		if X <= 0 then X = 0
+      		
+      		// <Progress> of <Total size>
+      		sStatus = "Paused"
+      		
+      		switch stDownload.StatusDetails
+      			case downloadPausedWaitingToRetry 
+      				sSizeInfo = "New attempt..."
+      				
+      			case downloadPausedWaitingForWifi  
+      				sSizeInfo = "Waiting for WiFi network..."
+      				
+      			case downloadPausedWaitingForNetwork   
+      				sSizeInfo = "Waiting for a network..."
+      				
+      			case downloadPausedUnknown  
+      				sSizeInfo = LengthToString(X) + " on " + LengthToString(stDownload.FileSize) + " • " + stDownload.Source.Host
+      				
+      			other case
+      				sSizeInfo = LengthToString(X) + " on " + LengthToString(stDownload.FileSize) + " • " + stDownload.Source.Host
+      		end
+      		
+      		LOOP_DOWNLOADS[ N ].STC_FILE_INFO.Color = DarkOrange
+      		
+      		// Checks progress regularly
+      		CheckDownloadRegularly( stDownload.Identifier, downloadStatusPaused )
+      		
+      	// Download completed
+      	case downloadStatusSuccessful    
+      		
+      		// <Total size>
+      		sSizeInfo = LengthToString(stDownload.FileSize) + " • " + stDownload.Source.Host
+      		
+      	// Download with errors
+      	case downloadStatusFailed    
+      		
+      		sStatus = "Failed"
+      		
+      		switch stDownload.StatusDetails
+      			case downloadErrorInsufficientSpace
+      				sSizeInfo = "Not enough free space"
+      				
+      			case downloadErrorFileAlreadyExists 
+      				sSizeInfo = "Invalid URL"
+      				
+      			case downloadErrorStorage  
+      				sSizeInfo = "Unknown storage error"
+      				
+      			case downloadErrorUnknown 
+      				sSizeInfo = "Unknown error"
+      				
+      			other case
+      				sSizeInfo = "Unknown error"
+      		end
+      		
+      		LOOP_DOWNLOADS[ N ].ATT_ERROR			= True
+      		LOOP_DOWNLOADS[ N ].STC_FILE_INFO.Color	= DarkRed
+      		
+      end
+      
+      // Displays the name of the downloaded file
+      LOOP_DOWNLOADS[ N ].STC_FILE_NAME					= URIGetInfo(stDownload.Destination, uriInfoName) + sTypeInfo.ExtractString(2) + ( [ " - " ] + sStatus )
+      LOOP_DOWNLOADS[ N ].STC_FILE_INFO					= sSizeInfo
+      
+      return stDownload.FileSize
+     type : 458752
+   -
+     name : CheckDownloadRegularly
+     internal_properties : CAAAAAgAAAA5yvQThi6xoki6ht9swvLRW8h9MmVzEPZAFbUUmpc5oLaEN5YtU7bSgNGmxUtQgyiOkgMAz89365sE0opLJC5ghn89n7vZH50F4TGiaabmP8USB+QNXFPhRxiQriEWKP0sfJpCUXljKY1T/vEqjQ==
+     procedure_id : 1409353274351532099
+     type_code : 14
+     code : |1-
+      // Summary: Checks a download regularly
+      // Syntax:
+      //CheckDownloadRegularly (<ID> is string, <nStatus> is int)
+      //
+      // Parameters:
+      //	ID (UNICODE string): Identifier of the download
+      //	nStatus (integer): Current status of the download
+      // Return value:
+      // 	None
+      //
+      // Automatic procedure:
+      // The procedure is executed manually, during a call in the code, with a timeout of 25 hundredths of a second
+      // It will be run in a secure thread (without calling ThreadExecute), without using HFSQL
+      // It will be repeated in loop, with 1 second between each call
+      // 
+      
+      procedure CheckDownloadRegularly( local ID is string, local nState is int )
+      
+      stDownloadUpdated is DownloadInfo
+      
+      // Updates the details of the download
+      stDownloadUpdated = DownloadGetInfo(ID)
+      
+      // If the download was pending or paused
+      if nState in ( downloadStatusPending, downloadStatusPaused ) then
+      	
+      	// If its status has not changed
+      	if stDownloadUpdated.Status = nState then
+      		
+      		// Ignore the rest, next passage
+      		return
+      	end		
+      end
+      
+      // If the download was completed
+      if nState in ( downloadStatusFailed, downloadStatusSuccessful ) then
+      	
+      	// Stops the timer
+      	EndAutomatedProcedure()
+      	return
+      end
+      
+      // Update
+      ExecuteMainThread( () => { 
+      
+      // Refreshes
+      ShowDownload( stDownloadUpdated, False, True )
+      
+      // If the download is no longer in progress
+      if stDownloadUpdated.Status <> downloadStatusRunning then
+      	
+      	// Refreshes the list
+      	RefreshList()		
+      end		
+      
+      } )
+      
+      // End of download
+      if stDownloadUpdated.Status in ( downloadStatusFailed, downloadStatusSuccessful ) then
+      	
+      	// Stops the timer
+      	EndAutomatedProcedure()
+      end
+     type : 458752
+   -
+     name : URLAdd
+     procedure_id : 1409353274351597635
+     type_code : 14
+     code : |1-
+      // Summary: Adds a URL for each input
+      // Syntax:
+      //URLAdd ( [<sDefaultURL> is string])
+      //
+      // Parameters:
+      // 	sDefaultURL (UNICODE string - default value=""): Default URL
+      // Return value:
+      // 	None
+      //
+      procedure URLAdd( sDefaultURL is string = "" )
+      
+      // Opens the URL input popup
+      WIN_POP_URL.OuvrePopupAsynchrone( ( sDefaultURL ), popCenteredWindow, procedure( ReturnedValue is string ) {
+      	
+      	// If the input has been validated
+      	if ReturnedValue <> "" then
+      		
+      		// Program the download
+      		DownloadElement( ReturnedValue )		
+      	end	
+      	
+      } )
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x117ab55e00b3f79d
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

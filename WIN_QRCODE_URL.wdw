@@ -1,0 +1,119 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_QRCODE_URL
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_QRCODE_URL
+ identifier : 0x238f07570d3abbae
+ internal_properties : CAAAAAgAAADDvbdRcnBTpsRQds+0aKaMtfWln5Qur4/ilaHD122DySmuHklky01ink7opMor0sHPf/P2gie3eL4JpYMsMvvMHVSZP8eafanfVANMgyGgbGyz68/q+xg81ETW/z5D34jmbWUG7d09sgZGUFbknGNpuQEGR/As/MqTIBjlCYNrubwze6l37rnNx9PWxqc5/gIga8AjnhrlAZ+WPf8fChW/6B9FCXlCNIjdHG8NcNuXo4LjwTATIJUKwuX0tjhFgAKJHjP0I+tXA/1OH+0OnnPqF/vfUUOvyPLJMh2i+Wnoouh1gbRxKattjqg+C7N8366Z2A64S1QfEp/ace5fsJKJHCthBovEkE3TQA0XAIFAX93Ks8tlYV4WeMjRvhXtqgKbc4RcqlDrRhfHHU9DtIhKeOBMYgCTcYErzWyDq+nfQEKSDsikMFeow7/IB9ZlNNVxjWW4DUQZQ4+koH+muieLIfxZg6MHOR+Tf88B3Uu4f0EaTKUtg6vUGrAZiYEcnlktNr58CRvJ/6GSA8DSM6lHyWfj92d6WJfB12VbBgMKsMRTpy2rvixF9UtSMQDQdvx05wHR5oL11c97v0/RaRrvRt+RVsT+RtzTr0H+9O7hqhaw1FyEDIiV8zgieG5Jt/2/p38rpYMweb2PmclS0pZEKaOna2zFbOOACeKmnLfU8JGBsrE9ktYhM3DuCjtH7HFpWzKCEnkAxhG7QHqQWPaEdHt2KgEACkljVeuiEgTM45JTqTBOtEESosd2IOZ6fjuOKwONuFq/JWO59l7L8RU7ox9DCi0bnGXUZxVtOTHNfcuFCC+ueLggI3/ygK60X5AwcNDKWk4KjHLe1MRy5zCIrHlUkegbtcAj6loTra6lDbPtdyegtIzSFuti5kwv5QoFf0/5XgEsbTxl22UKWD5y1lI=
+ properties :
+  width : 360
+  height : 650
+ controls :
+  -
+    name : CAM_QRCODE
+    identifier : 0x238f07570d3bbbae
+    internal_properties : CAAAAAgAAABnW14n71CFrLqdrivYJ60H59y1qx9ZO+zv8wbek4bVcXD39VieAUcflFJbPFhuDYjtZeGm5zSTesUzzBAcdB2hnfIy2Dhs5V81RLfp+11d0FTnzz101Py8Jn48M2/eXGgkXfvB9G7VvpJqbnRMwIIcMEOydygMPu/v+D5TxzHY3YTfnFz5RRLGS0TXceQKBmoQTol3YQ11kBZmQqzmHKCkc/9i1d/0g05NGa/smPEixAo9Y+lFb5i57SNX2grrFtw45LdjeATcgxeCuT8HpuoBhMZmMCMj4VJjQfe7IRDZXzZKgbZK6hjVlD4JTMpDKHxAIosK+RuQ9c2Tk3mbuOmrQeiQaQt3/7ArvMqyOh1xNc/XV6maPZptvFTonsWjUnEOjlfB8ZKzxHpBFRYmjdrI0dSS74ZwJgDjQUZdZrg0zAUjpkss6jyE2lgHxAmi4zrb
+    properties :
+     y : 1
+     width : 360
+     height : 650
+    type : 24
+    code_elements :
+     type_code : 37
+     p_codes :
+      -
+        code : |1+
+         procedure DécodeCodeBarre( bc is BarCode )
+         
+         STC_DETECTION.Visible = True
+         
+         // Text 
+         if bc.ContentType = bcTypeText then
+         	
+         	// Checks if it is a URL
+         	if bc.RoughValue [= "http:" _or_ bc.RoughValue [= "https:" then
+         		
+         		// Authorizes the bar code
+         		MyWindow.ReturnedValue = bc.RoughValue
+         		Close
+         	end		
+         	
+         	// URL?
+         else if bc.ContentType = bcTypeURL then
+         	
+         	// Authorizes the bar code
+         	MyWindow.ReturnedValue = ( bc.RoughValue [=] "urlto::" ? ExtractString(bc.RoughValue, 2, "urlto::") else bc.RoughValue )
+         	Close
+         end
+        type : 237
+  -
+    name : STC_DETECTION
+    identifier : 0x238f07570d3cbbae
+    internal_properties : CAAAAAgAAAD0VSskL9zdLjhc1iFuMS3Zbn0R5sgCrE2PwRfKb8sk+k8+NSNgEN6ZxAQXQAmvJt0uNuf7569ecWMqom1MFxavgaiV/Dglcxhjp9rE+9TQbs6eY+uk/cduU72/Be2He2YxgvSfQ4FZq+MuKjvxoLAlcAALHnR+n4NO9nun9TBe1cDk5grL6nO5F6Ig/UT4QWQHjLksG6xA2gqnl/tJUUZEUjLv4Vexyey7RI4CMb1dkkgZxfvMnqUob75qdLLEWvvFeyOnuasJrYKyhnNxl1CuW5JUS9L9OE/SeJ968iuICRFdhnYuqj0wY0UfpidaK4djIhS04kMSgKTSRpSAPgRLakk1RwjWJrU7WmvqDqRdHYZ0/MQj4VU3wiqYvSrtMHrzHNBT1KotHE6eucaOJZRTerifgKmFSSFN9OjFo6KLwcorHmLSvlMOEhk5ZnKr6M6ujZO3d3U7Ln+JoOjyjiTaRPMyzciq6rz58eeFb7gYIJy/Gih/uwKobE8+IyzwIFTcEQA2r2ipu1zMLaaKhAyYJV6/AS35IkPJS9t/LOCgDqnM+Y4=
+    properties :
+     x : 120
+     y : 183
+     width : 120
+     height : 65
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes : []
+ actionbar :
+  name : ACTB_ACTIONS
+  identifier : 0x238f07570d3dbbae
+  internal_properties : CAAAAAgAAAADLQ467sbvsD76IeKo5rK+1TPDszRz+1vuT43yrueKQ58eMzanSErdg2v9W9XWrKS3UGRwzcrwTeyNCcUby4DnmyzKTEnkSMglocNE5fXFctJs2WDg92AhYcIoZHSctm0TD1sm1JMOf+VahaDPBJywS55hQYg57Oqc/Iv924mmiJhvaF2xY7+AknPRTixP7zWT/D8LzHTydlGSxNvHoECA5w9wAgzSlF+9awksJUGQKyEcr/JJoye0TqC50VAT7D44cV5uIhek9sSFIuDTYLXBFyRogEMG/7p8+ut5AGkVNuc=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABKff4sxysR+9kg8GIJ708iDvb5GJxqytSUKL54fomJ9xlu42EWUFv/+en+BSQDmdB2krqVslwL/1eyQDVw8sffQk7lF3aDfZNzV/+zROsnKAy1jaSejRR5UgML
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      procedure MyWindow()
+      
+      MyWindow.ReturnedValue = ""
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x117bbfef000c3f4e
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
